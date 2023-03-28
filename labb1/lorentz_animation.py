@@ -1,4 +1,3 @@
-import os
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -52,7 +51,7 @@ def lorenz(_t, _y, sigma=10, beta=(8 / 3), rho=28):
 dt = 0.01
 
 # simulation time range
-time = np.arange(0.0, 8.0, dt)
+time = np.arange(0.0, 10.0, dt)
 
 # lorenz initial conditions (x, y, z) at t = 0
 y0 = np.array([-7, 8, 26])
